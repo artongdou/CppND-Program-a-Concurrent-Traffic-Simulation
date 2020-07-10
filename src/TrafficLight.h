@@ -33,6 +33,10 @@ private:
 class TrafficLight
 {
 public:
+    enum TrafficLightPhase {
+        red,
+        green
+    };
     // constructor / desctructor
 
     // getters / setters
